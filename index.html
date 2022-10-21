@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
+    
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- =============== swiperjs.com =============== -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>Le petit cabinet d'amateur</title>
+</head>
+<body>
+    <!--=============== PRELOADER ===============-->
+    <div class="preloader" id="preloader">
+        <i class="ri-store-fill"></i>
+    </div>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/favicon.jpg" class="logo" alt=""> Le petit cabinet d'amateur
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Présentation</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Créations</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/home1.jpg" alt="" class="home__img">
+            
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Le petit cabinet d'amateur</span>
+                    <!-- <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1> -->
+                    <h1 class="home__data-title">La Passion <br>Du <b>Mobilier</b> et du <b> Patrimoine </b></h1>
+                    <a href="#" class="button">Découvrir</a>
+                    
+                </div>
+                
+                <div class="home__social">
+                    <a href="https://www.facebook.com/people/Le-petit-cabinet-damateur/100083285675479/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/le_petit_cabinet_damateur/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+                
+                <div class="home__info">
+                    <div>
+                        <a href="#popular" class="home__info-title">Notre sélection</a>
+                        <a href="#popular" class="button--flex button--link home__info-button">
+                            Coups de cœur <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    
+                    <a href="#popular" class="home__info-overlay">
+                        <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- =============== VALUE =============== -->
+        <section class="value section" id="about">
+            <div class="container">
+                <div class="value__container">
+                    <div class="value__img">
+                        <img src="./assets/img/value.jpg" alt="" />
+                    </div>
+                    
+                    <div class="value__data">
+                        <span class="section-subtitle">Présentation</span>
+                        <h2 class="section-title">Créé par Kévin Prieur en 2022.<span>.</span></h2>
+                        <p class="value__description">
+                            Tapissier de métier, j'ai ensuite effectué une formation en scénographie de décor. 
+                            J'ai souhaité à travers cette boutique pellentesque finibus id dui nec faucibus. Pellentesque finibus id dui nec faucibus
+                        </p>
+                        
+                        <div class="value__accordions">
+                            <div class="value__accordion">
+                                <div class="value__accordion-header">
+                                    <div class="value__accordion-icon">
+                                        <i class="bx bxs-shield-x"></i>
+                                    </div>
+                                    <h3 class="value__accordion-title">
+                                        Tapisserie d'ameublement
+                                    </h3>
+                                    <div class="value__accordion-button">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </div>
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nullam posuere, interdum at pulvinar sit amet, semper sit amet nisi. 
+                                </p>
+                            </div>
+                            <div class="value__accordion">
+                                <div class="value__accordion-header">
+                                    <div class="value__accordion-icon">
+                                        <i class="bx bxs-x-square"></i>
+                                    </div>
+                                    <h3 class="value__accordion-title">
+                                        Décoration d'intérieure
+                                    </h3>
+                                    <div class="value__accordion-button">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </div>
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nullam posuere, interdum at pulvinar sit amet, semper sit amet nisi. 
+                                </p>
+                            </div>
+                            <div class="value__accordion">
+                                <div class="value__accordion-header">
+                                    <div class="value__accordion-icon">
+                                        <i class="bx bxs-bar-chart-square"></i>
+                                    </div>
+                                    <h3 class="value__accordion-title">
+                                        Cabinet de curiosités
+                                    </h3>
+                                    <div class="value__accordion-button">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </div>
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nullam posuere, interdum at pulvinar sit amet, semper sit amet nisi. 
+                                </p>
+                            </div>
+                            <div class="value__accordion">
+                                <div class="value__accordion-header">
+                                    <div class="value__accordion-icon">
+                                        <i class="bx bxs-check-square"></i>
+                                    </div>
+                                    <h3 class="value__accordion-title">
+                                        Brocantes
+                                    </h3>
+                                    <div class="value__accordion-button">
+                                        <i class="bx bxs-down-arrow"></i>
+                                    </div>
+                                </div>
+                                <p class="value__accordion-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nullam posuere, interdum at pulvinar sit amet, semper sit amet nisi. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== ABOUT ====================-->
+        <section class="about section">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Restauration de mobilier</h2>
+                    <p class="about__description">
+                        Pellentesque finibus id dui nec faucibus.
+                        Pellentesque sit amet congue sapien, nec tristique purus. Sed metus metus, blandit in augue sodales, blandit efficitur eros.
+                        Phasellus efficitur id odio non placerat.
+                    </p>
+                </div>
+                
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about3.jpg" alt="" class="about__img-one">
+                    </div>
+                    
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about4.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- =============== POPULAR =============== -->
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section-subtitle">Créations</span>
+                <h2 class="section-title">Coups de cœur du moment<span>.</span></h2>
+                
+                <span>Pour plus d'information n'hésitez pas à me contacter ou me rendre visite à la boutique</span>
+                
+                <div class="popular__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <div class="popular__card swiper-slide">
+                            <img
+                            src="./assets/img/popular1.jpg"
+                            alt=""
+                            class="popular__img"
+                            />
+                            <!-- <h2 class="popular__price">000 <span>€</span></h2> -->
+                            <h3 class="popular__title">Fauteuil Louis Z</h3>
+                            <p class="popular__address">
+                                Sed metus metus, blandit in augue sodales, blandit efficitur eros. Phasellus efficitur id odio non placerat.  <br>
+                                #0119
+                            </p>
+                        </div>
+                        <div class="popular__card swiper-slide">
+                            <img
+                            src="./assets/img/popular2.jpg"
+                            alt=""
+                            class="popular__img"
+                            />
+                            <!-- <h2 class="popular__price">000<span>€</span></h2> -->
+                            <h3 class="popular__title">Fauteuil Henri K</h3>
+                            <p class="popular__address">
+                                Sed metus metus, blandit in augue sodales, blandit efficitur eros. Phasellus efficitur id odio non placerat.  <br>
+                                #0122
+                            </p>
+                        </div>
+                        <div class="popular__card swiper-slide">
+                            <img
+                            src="./assets/img/popular3.jpg"
+                            alt=""
+                            class="popular__img"
+                            />
+                            <!-- <h2 class="popular__price">000<span>€</span></h2> -->
+                            <h3 class="popular__title">Fauteuil Deguedin</h3>
+                            <p class="popular__address">
+                                Sed metus metus, blandit in augue sodales, blandit efficitur eros. Phasellus efficitur id odio non placerat.  <br>
+                                #0123
+                            </p>
+                        </div>
+                        <div class="popular__card swiper-slide">
+                            <img
+                            src="./assets/img/popular4.jpg"
+                            alt=""
+                            class="popular__img"
+                            />
+                            <!-- <h2 class="popular__price">000<span>€</span></h2> -->
+                            <h3 class="popular__title">The Fauteuil</h3>
+                            <p class="popular__address">
+                                Sed metus metus, blandit in augue sodales, blandit efficitur eros. Phasellus efficitur id odio non placerat.  <br>
+                                #0130
+                            </p>
+                        </div>
+                        <div class="popular__card swiper-slide">
+                            <img
+                            src="./assets/img/popular5.jpg"
+                            alt=""
+                            class="popular__img"
+                            />
+                            <!-- <h2 class="popular__price">000<span>€</span></h2> -->
+                            <h3 class="popular__title">Bas de Buffet de dingo</h3>
+                            <p class="popular__address">
+                                Sed metus metus, blandit in augue sodales, blandit efficitur eros. Phasellus efficitur id odio non placerat.  <br>
+                                #0131
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-line"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!--==================== VIDEO ====================-->
+        <section class="video section">
+            <h2 class="section__title-center">Video Tour</h2>
+            
+            <div class="video__container container">
+                <p class="video__description">Découvrez-en plus sur le cabinet et le métier de tapissier d'ameublement</a>
+                </p>
+                
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                    </video>
+                    
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== QUESTIONS ====================-->
+        <section class="questions section" id="faqs">
+            <h2 class="section__title-center questions__title container">
+                Quelques questions <br> souvent posées
+            </h2>
+            
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Dois-je vous amener mon meuble moi-même à votre atelier ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Aliquam eget sagittis nibh. Etiam ac gravida nulla. Ut sed turpis eget ligula dignissim porta. Etiam quis diam iaculis, tempus ex eu, scelerisque mauris.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Puis-je choisir mon propre tissu ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Aliquam eget sagittis nibh. Etiam ac gravida nulla. Ut sed turpis eget ligula dignissim porta. Etiam quis diam iaculis, tempus ex eu, scelerisque mauris.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Je cherche un meuble bien spécifique est-il possible d'être prévenu dès que vous en trouvez un ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Aliquam eget sagittis nibh. Etiam ac gravida nulla. Ut sed turpis eget ligula dignissim porta. Etiam quis diam iaculis, tempus ex eu, scelerisque mauris.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Comment puis-je prendre soin de mon fauteuil une fois restauré ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Aliquam eget sagittis nibh. Etiam ac gravida nulla. Ut sed turpis eget ligula dignissim porta. Etiam quis diam iaculis, tempus ex eu, scelerisque mauris.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                J'adore vos produits mais j'habite loin est-il possible de le faire livrer ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Etiam ac gravida nulla. Ut sed turpis eget ligula dignissim porta.
+                                Etiam quis diam iaculis, tempus ex eu, scelerisque mauris.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                J'aime beaucoup ce que vous faites. Ce n'est pas une question.
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Etiam ac gravida nulla. Ut sed turpis eget ligula dignissim porta.
+                                Aliquam eget sagittis nibh. Etiam quis diam iaculis, tempus ex eu, scelerisque mauris.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">     
+            <h2 class="section__title">
+                Contact
+            </h2>           
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Appelez-moi pour plus d'informations</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                06 77 07 46 81
+                            </span>
+                        </div>
+                        
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Ecrivez-moi par email</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                kevin.prieur52@gmail.com
+                            </span>
+                        </div>
+
+                        <div class="contact__map">
+                            <h3 class="contact__subtitle">Retrouvez-moi en centre ville</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7817.7649669840275!2d4.847784084136366!3d46.780201628133334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f2fd0d59d090a1%3A0x1dc022212e7e4fee!2sLe%20petit%20cabinet%20d&#39;amateur!5e0!3m2!1sfr!2sfr!4v1665912481720!5m2!1sfr!2sfr" class="contact__map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </div>
+
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7817.7649669840275!2d4.847784084136366!3d46.780201628133334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f2fd0d59d090a1%3A0x1dc022212e7e4fee!2sLe%20petit%20cabinet%20d&#39;amateur!5e0!3m2!1sfr!2sfr!4v1665912481720!5m2!1sfr!2sfr" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                </div>
+                
+                <form action="https://formsubmit.co/kevin.prieur52@gmail.com" method="POST" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" name="email" placeholder="" class="contact__input">
+                            <label class="contact__label">Votre email</label>
+                        </div>
+                        
+                        <div class="contact__content">
+                            <input type="text" name="subject" placeholder="" class="contact__input">
+                            <label class="contact__label">Objet</label>
+                        </div>
+                        
+                        <div class="contact__content contact__area">
+                            <textarea type="text" name="message" placeholder="" class="contact__input"></textarea>                              
+                            <label class="contact__label">Message</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="button button--flex">
+                        Envoyer
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        
+
+    </main>
+    
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/favicon.jpg" class="logo" alt=""></i>Le petit cabinet d'amateur
+                </a>
+                
+                <h3 class="footer__title">
+                    Abonnez-vous à ma newsletter
+                </h3>
+                
+                <form action="https://formsubmit.co/kevin.prieur52@gmail.com" method="POST" class="footer__subscribe">
+                    <input type="email" name="email" placeholder="Entrez votre email" class="footer__input">
+                    <input name="subject" value="Nouvel abonné" class="display-none">
+                    <input name="message" value="Bonjour, je souhaiterais m'abonner à votre newsletter." class="display-none">
+                    <!-- <input type="message" value=" Nouvel abonné à la newsletter, enregistrer l'adresse mail ci dessus."  class="display-none"> -->
+                    <button type="submit" class="button button--flex footer__button">
+                        M'abonner
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Adresse Du Cabinet</h3>
+                
+                <ul class="footer__data">
+                    <li class="footer__information">28 Rue Pasteur</li>
+                    <li class="footer__information">Chalon-sur-Saône, France</li>
+                </ul>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Télephone</h3>
+                
+                <ul class="footer__data">
+                    <li class="footer__information">06 77 07 46 81</li>
+                    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            
+            <div class="footer__content">
+                <h3 class="footer__title">Menu</h3>
+                <ul>
+                    <li class="footer__information">
+                        <a href="#home" class="footer__link">Accueil</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="#about" class="footer__link">Présentation</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="#popular" class="footer__link">Produits</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="#faqs" class="footer__link">FAQs</a>
+                    </li>
+                    <li class="footer__information">
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        
+        <p class="footer__copy">
+            <span>&#169; 2022 Le petit cabinet d'amateur. Tous droits réservés.</span>
+            <br>
+            <span class="">Produced By <a href="https://jutbn.github.io/JuTbn/">Julien Toubon</a></span>
+        </p>
+        
+    </footer>
+    
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+    
+    <!-- =============== swiperjs.com =============== -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
